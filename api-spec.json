@@ -14,5 +14,35 @@
         "url": "https://opensource.org/licenses/MIT"
     },
     "version": "0.0.1"
-  }
+  },
+  "servers": [
+    {
+      "url": "https://development.bkawk.com/{basePath}",
+      "description": "Development server",
+      "variables": {
+        "basePath": {
+          "default": "v1"
+        }
+      }
+    },
+    {
+      "url": "https://staging.bkawk.com/{basePath}",
+      "description": "Staging server",
+      "variables": {
+        "basePath": {
+          "default": "v1"
+        }
+      }
+    },
+    {
+      "url": "https://api.bkawk.com/{basePath}",
+      "description": "Production server",
+      "variables": {
+        "basePath": {
+          "default": "v1"
+        }
+      }
+    }
+  ]
 }
+
