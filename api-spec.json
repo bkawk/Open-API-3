@@ -1,0 +1,18 @@
+{
+  "openapi": "3.0.0",
+  "info": {
+    "title": "Test API",
+    "description": "Description",
+    "termsOfService": "https://bkawk.com/terms/",
+    "contact": {
+        "name": "Will Hill",
+        "url": "https://www.bkawk.com/support",
+        "email": "will@bkawk.com"
+    },
+    "license": {
+        "name": "MIT",
+        "url": "https://opensource.org/licenses/MIT"
+    },
+    "version": "0.0.1"
+  }
+}
